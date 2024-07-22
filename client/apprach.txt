@@ -1,0 +1,15 @@
+
+
+first for wallet we will pass the address or ssender address to check tha balance 
+so the server already has the address in balance object along with balances so its easy to get the balance 
+
+
+now how to send transacrion 
+
+firstly, get the details into object or json format we will include snder address, balance , nonce ,recepient address make a function and declare there
+
+secondly, get this object or message  hashed
+
+then, pass it to the signature along with private key 
+
+then pass this signature to server

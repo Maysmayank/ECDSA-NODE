@@ -35,15 +35,17 @@ function Transfer({ address, setBalance }) {
           value={sendAmount}
           onChange={setValue(setSendAmount)}
         ></input>
+        <div>send address is {address}</div>
       </label>
 
       <label>
-        Recipient
+        Recipient 
         <input
           placeholder="Type an address, for example: 0x2"
           value={recipient}
           onChange={setValue(setRecipient)}
         ></input>
+        <div>recipient address : {recipient}</div>
       </label>
 
       <input type="submit" className="button" value="Transfer" />
